@@ -69,7 +69,7 @@ const Portfolio = () => {
       title: "ATL Eats",
       description: "Developed a full-stack web application for exploring Atlanta restaurants, featuring Google Maps integration. Created responsive front-end components and implemented robust search functionality.",
       tech: ["Python", "Django", "HTML/CSS"],
-      image: "/images/Atleats.png",
+      image: "./images/Atleats.png",
       link: "https://kenzieelle4.wixsite.com/atl-eats-demo/copy-of-detailed-description"
     }
   ];
