@@ -55,7 +55,7 @@ const Portfolio = () => {
       title: "Graphic Medicine VIP",
       description: "Collaborated with the website team to develop and launch the Graphic Medicine website as part of Georgia Tech's VIP program. Integrated Figma mockups into a WordPress platform, ensuring seamless functionality and visual appeal.",
       tech: ["Figma", "WordPress"],
-      image: "/images/GraphicMed.png",
+      image: "GraphicMed.png",
       link: "https://sites.gatech.edu/graphicmedicinelab/"
     },
     {
