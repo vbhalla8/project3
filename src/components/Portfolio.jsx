@@ -62,7 +62,7 @@ const Portfolio = () => {
       title: "Spotify Wrapped",
       description: "Led frontend development for Spotify Wrapped, implementing animated designs and maintaining cohesive styles. Created engaging user experiences through Figma prototypes and dynamic content delivery using the Spotify API.",
       tech: ["Python", "Django", "CSS/HTML"],
-      image: "/images/spotify.png",
+      image: "public/images/spotify.png",
       link: "https://kenzieelle4.wixsite.com/atl-eats-demo/detailed-description"
     },
     {
