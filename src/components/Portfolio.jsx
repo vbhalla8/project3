@@ -10,6 +10,11 @@ const Portfolio = () => {
   // Theme toggle handler
   const toggleTheme = () => {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+
+
+
+    
+    
   };
 
   // Scroll handler with improved performance using requestAnimationFrame
