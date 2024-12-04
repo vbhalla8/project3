@@ -222,10 +222,10 @@ const Portfolio = () => {
   );
   const Playground = () => {
     const images = [
-      { src: 'project3/images/mont.png', alt: 'Mountian Studio Ghibli', title: 'Mountain View', description: 'Studio Ghibli mountain landscape .' },
-      { src: 'project3/images/plant.png', alt: ':)', title: 'Green Plant', description: 'A close-up of a vibrant plant.' },
-      { src: 'project3/images/wormart.png', alt: 'Dune Inspired', title: 'Abstract Worm', description: 'Dune insspired eclipse.' },
-      { src: 'project3/images/final.png', alt: 'Final Project', title: 'Final Project', description: 'Took a year to finish this Studio Ghibli painting.' },
+      { src: 'images/mont.png', alt: 'Mountian Studio Ghibli', title: 'Mountain View', description: 'Studio Ghibli mountain landscape .' },
+      { src: 'images/plant.png', alt: ':)', title: 'Green Plant', description: 'A close-up of a vibrant plant.' },
+      { src: 'images/wormart.png', alt: 'Dune Inspired', title: 'Abstract Worm', description: 'Dune insspired eclipse.' },
+      { src: 'images/final.png', alt: 'Final Project', title: 'Final Project', description: 'Took a year to finish this Studio Ghibli painting.' },
     ];
   
     const [activeImage, setActiveImage] = useState(null);
@@ -320,7 +320,7 @@ I am currently an undergraduate student at the Georgia Institute of Technology. 
         <div className="bg-slate-900/50 p-8 rounded-lg">
           <p className="text-gray-300 mb-6">View/download my current resume</p>
           <a 
-            href="/images/VB_Resume.pdf" 
+            href="images/VB_Resume.pdf" 
             className="inline-flex items-center px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
