@@ -55,21 +55,22 @@ const Portfolio = () => {
       title: "Graphic Medicine VIP",
       description: "Collaborated with the website team to develop and launch the Graphic Medicine website as part of Georgia Tech's VIP program. Integrated Figma mockups into a WordPress platform, ensuring seamless functionality and visual appeal.",
       tech: ["Figma", "WordPress"],
-      image: "/GraphicMed.png",
+      image: "project3/images/GraphicMed.png",
       link: "https://sites.gatech.edu/graphicmedicinelab/"
     },
-    
+    {
       title: "Spotify Wrapped",
       description: "Led frontend development for Spotify Wrapped, implementing animated designs and maintaining cohesive styles. Created engaging user experiences through Figma prototypes and dynamic content delivery using the Spotify API.",
       tech: ["Python", "Django", "CSS/HTML"],
-      image: "public/images/spotify.png",
+      image: "project3/images/spotify.png",
       link: "https://kenzieelle4.wixsite.com/atl-eats-demo/detailed-description"
     },
+
     {
       title: "ATL Eats",
       description: "Developed a full-stack web application for exploring Atlanta restaurants, featuring Google Maps integration. Created responsive front-end components and implemented robust search functionality.",
       tech: ["Python", "Django", "HTML/CSS"],
-      image: "./images/Atleats.png",
+      image: "project3/images/Atleats.png",
       link: "https://kenzieelle4.wixsite.com/atl-eats-demo/copy-of-detailed-description"
     }
   ];
@@ -221,10 +222,10 @@ const Portfolio = () => {
   );
   const Playground = () => {
     const images = [
-      { src: '/images/mont.png', alt: 'Mountian Studio Ghibli', title: 'Mountain View', description: 'Studio Ghibli mountain landscape .' },
-      { src: '/images/plant.png', alt: ':)', title: 'Green Plant', description: 'A close-up of a vibrant plant.' },
-      { src: '/images/wormart.png', alt: 'Dune Inspired', title: 'Abstract Worm', description: 'Dune insspired eclipse.' },
-      { src: '/images/final.png', alt: 'Final Project', title: 'Final Project', description: 'Took a year to finish this Studio Ghibli painting.' },
+      { src: 'project3/images/mont.png', alt: 'Mountian Studio Ghibli', title: 'Mountain View', description: 'Studio Ghibli mountain landscape .' },
+      { src: 'project3/images/plant.png', alt: ':)', title: 'Green Plant', description: 'A close-up of a vibrant plant.' },
+      { src: 'project3/images/wormart.png', alt: 'Dune Inspired', title: 'Abstract Worm', description: 'Dune insspired eclipse.' },
+      { src: 'project3/images/final.png', alt: 'Final Project', title: 'Final Project', description: 'Took a year to finish this Studio Ghibli painting.' },
     ];
   
     const [activeImage, setActiveImage] = useState(null);
