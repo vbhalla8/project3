@@ -55,14 +55,14 @@ const Portfolio = () => {
       title: "Graphic Medicine VIP",
       description: "Collaborated with the website team to develop and launch the Graphic Medicine website as part of Georgia Tech's VIP program. Integrated Figma mockups into a WordPress platform, ensuring seamless functionality and visual appeal.",
       tech: ["Figma", "WordPress"],
-      image: "project3/images/GraphicMed.png",
+      image: "images/GraphicMed.png",
       link: "https://sites.gatech.edu/graphicmedicinelab/"
     },
     {
       title: "Spotify Wrapped",
       description: "Led frontend development for Spotify Wrapped, implementing animated designs and maintaining cohesive styles. Created engaging user experiences through Figma prototypes and dynamic content delivery using the Spotify API.",
       tech: ["Python", "Django", "CSS/HTML"],
-      image: "project3/images/spotify.png",
+      image: "images/spotify.png",
       link: "https://kenzieelle4.wixsite.com/atl-eats-demo/detailed-description"
     },
 
